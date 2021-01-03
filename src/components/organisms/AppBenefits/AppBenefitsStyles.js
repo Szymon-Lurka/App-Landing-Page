@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledWrapper = styled.div`
-width:70vw;
+width:80vw;
 margin:0 auto;
 display:flex;
 justify-content:space-between;
@@ -19,5 +19,6 @@ align-items:center;
 @media(max-width:1074px) {
     flex-direction: column;
     margin: -150px auto 50px;
+    width:80vw;
 }
 `;

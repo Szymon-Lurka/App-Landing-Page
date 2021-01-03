@@ -7,7 +7,7 @@ width: 20%;
 justify-content:flex-start;
 align-items:flex-start;
 @media(max-width:1074px) {
-    width: 80%;
+    width: 100%;
     margin-bottom: 25px;
 }
 `;
