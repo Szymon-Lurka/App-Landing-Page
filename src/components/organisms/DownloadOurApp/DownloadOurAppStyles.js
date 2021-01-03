@@ -22,3 +22,7 @@ export const StyledImg = styled.img`
 export const StyledImgWrapper = styled.div`
 display:flex;
 `;
+
+export const StyledSmallImg = styled.img`
+width: 100px;
+`;

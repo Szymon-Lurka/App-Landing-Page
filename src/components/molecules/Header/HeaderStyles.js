@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
-width:100vw;
+width:100%;
 height:91.5vh;
 position:relative;
 display:flex;
@@ -44,7 +44,6 @@ width:90%;
 `;
 
 export const HeadingBackground = styled.div`
-width: 362px;
 height: 35px;
 background-color:#E2EAED;
 border-radius: 10px;

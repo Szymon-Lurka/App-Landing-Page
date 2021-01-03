@@ -8,7 +8,8 @@ import {
     StyledWrapper,
     StyledTextWrapper,
     StyledImg,
-    StyledImgWrapper
+    StyledImgWrapper,
+    StyledSmallImg
 } from './DownloadOurAppStyles'
 
 const DownlaodOurApp = () => {
@@ -18,8 +19,8 @@ const DownlaodOurApp = () => {
                 <HeroHeading text="Download our App now" />
                 <Paragraph text="The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook." />
                 <StyledImgWrapper>
-                    <img src={GooglePlay} />
-                    <img src={AppStore} />
+                    <StyledSmallImg src={GooglePlay} />
+                    <StyledSmallImg src={AppStore} />
                 </StyledImgWrapper>
             </StyledTextWrapper>
             <StyledImg src={DownloadPic} />
