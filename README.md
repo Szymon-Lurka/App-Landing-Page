@@ -12,4 +12,4 @@ I used free PSD project found on freebiesbug.com
 In your terminal:
 1. npm install
 2. gatsby develop
-3. go to localhost:8000
+And then visit localhost:8000
