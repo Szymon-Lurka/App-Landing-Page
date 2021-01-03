@@ -7,3 +7,9 @@ It's a free PSD project from freebiesbug.com
 ### Coded website for challenge - maximum 8 hours for coding.
 I finished after 7 hours.
 I used free PSD project found on freebiesbug.com
+
+## If u want to open this project
+In your terminal:
+1. npm install
+2. gatsby develop
+3. go to localhost:8000
