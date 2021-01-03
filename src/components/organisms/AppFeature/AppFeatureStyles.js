@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const StyledWrapper = styled.div`
 width: 80vw;
 margin:150px auto;
-height: 100vh;
 display:flex;
 @media(max-width:1074px) {
     flex-wrap:wrap;
