@@ -7,6 +7,12 @@ const StyledHeading = styled.p`
 font-size: 3.6rem;
 color: ${props => props.theme.headingColor};
 font-weight: 600;
+@media(max-width:1465px) {
+    font-size:2.8rem;
+}
+@media(max-width:1221px) {
+    font-size:2rem;
+}
 `;
 
 const PrimaryHeading = ({ text }) => {

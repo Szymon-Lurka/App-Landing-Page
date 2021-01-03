@@ -12,6 +12,12 @@ border-radius:40px;
 border:none;
 font-size: 1.6rem;
 font-weight:600;
+cursor:pointer;
+transition: .2s;
+&:hover {
+    background-color:#CCC;
+    color: ${props => props.theme.buttonColor};
+}
 `;
 
 const Button = ({ text }) => {

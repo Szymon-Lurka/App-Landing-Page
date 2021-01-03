@@ -7,13 +7,22 @@ const StyledHeading = styled.p`
 font-size: 6rem;
 color: ${props => props.theme.headingColor};
 font-weight:600;
+margin-bottom: ${({ mb }) => mb};
+margin-top: ${({ mt }) => mt};
+line-height: 70px;
+@media(max-width:1465px) {
+    font-size:5rem;
+}
+@media(max-width:1221px) {
+    font-size:4rem;
+}
 `;
 
-const HeroHeading = ({ text }) => {
+const HeroHeading = ({ text, mb, mt }) => {
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyle />
-            <StyledHeading>
+            <StyledHeading mb={mb} mt={mt}>
                 {text}
             </StyledHeading>
         </ThemeProvider>
