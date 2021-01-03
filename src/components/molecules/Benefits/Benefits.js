@@ -5,7 +5,7 @@ import SecondaryHeading from '../../atoms/SecondaryHeading/SecondaryHeading';
 const Benefits = ({ text, secondText, color, src }) => {
     return (
         <StyledParagraphsWrapper>
-            <img src={src} />
+            <img src={src} alt="test" />
             <SecondaryHeading text={text} color={color} />
             <Paragraph text={secondText} />
         </StyledParagraphsWrapper>

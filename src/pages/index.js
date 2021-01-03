@@ -13,11 +13,13 @@ import PriceList from '../components/organisms/PriceList/PriceList';
 import ClientsSection from '../components/organisms/ClientsSection/ClientsSection';
 import DownloadOurApp from '../components/organisms/DownloadOurApp/DownloadOurApp';
 import Footer from '../components/organisms/Footer/Footer';
+import GlobalStyle from '../assets/styles/globalStyles';
 const IndexPage = () => {
   const [isMobile, setIsMobile] = useState(false);
   IsMobileHook(setIsMobile, 1076)
   return (
     <>
+      <GlobalStyle />
       {isMobile ? <MobileNavigation /> : <DesktopNavigation />}
       <Header />
       <TrustedSection />

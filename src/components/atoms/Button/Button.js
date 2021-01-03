@@ -1,7 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components';
 import { theme } from '../../../assets/styles/variables';
-import GlobalStyle from '../../../assets/styles/globalStyles';
 
 const StyledButton = styled.button`
 width:170px;
@@ -23,7 +22,6 @@ transition: .2s;
 const Button = ({ text }) => {
     return (
         <ThemeProvider theme={theme}>
-            <GlobalStyle />
             <StyledButton>{text}</StyledButton>
         </ThemeProvider>
     );

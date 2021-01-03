@@ -1,6 +1,5 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components';
-import GlobalStyle from '../../../assets/styles/globalStyles';
 import { theme } from '../../../assets/styles/variables';
 
 const StyledLink = styled.a`
@@ -16,7 +15,6 @@ transition:.2s;
 const NavButton = ({ text }) => {
     return (
         <ThemeProvider theme={theme}>
-            <GlobalStyle />
             <StyledLink>
                 {text}
             </StyledLink>
